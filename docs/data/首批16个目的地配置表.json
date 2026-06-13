@@ -1,0 +1,1741 @@
+[
+  {
+    "id": "quanzhou",
+    "name": "泉州",
+    "region": "福建",
+    "categories": [
+      "城市漫游",
+      "美食文化"
+    ],
+    "departure_fit": {
+      "beijing": 3,
+      "shanghai": 4,
+      "guangzhou": 4,
+      "shenzhen": 4
+    },
+    "trip_length_fit": [
+      3,
+      4
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "一个人",
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "轻松逛吃",
+      "城市漫游",
+      "小众体验"
+    ],
+    "transport_fit": [
+      "高铁 / 飞机都可以",
+      "只要值得，远一点也行"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.5,
+    "avoid_crowd_score": 4.0,
+    "accessibility_score": 4.0,
+    "people_fit_score": 4.2,
+    "budget_score": 4.0,
+    "fatigue_score": 2.0,
+    "reason_short": "比顶流旅游城市更轻松，适合端午 3 天慢节奏逛吃。",
+    "reason_duanwu": "城市体量适中，3 天节奏刚好，美食和街区体验密度高。",
+    "reason_avoid_crowd": "相比超级热门旅游城市，端午整体拥挤压力相对更可控。",
+    "risk_tip": "热门街区和饭点仍可能排队。",
+    "alternatives": [
+      "潮州",
+      "漳州"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "热门餐饮排队",
+      "核心城区拥挤"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "城市体验型目的地",
+      "不依赖单一头部景点",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 2,
+      "shanghai": 4,
+      "guangzhou": 4,
+      "shenzhen": 4
+    },
+    "holiday_fit_note": "适合上海、广州、深圳出发，想轻松逛吃又不想冲顶流城市的情侣或朋友。"
+  },
+  {
+    "id": "chaozhou",
+    "name": "潮州",
+    "region": "广东",
+    "categories": [
+      "城市漫游",
+      "美食文化"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 3,
+      "guangzhou": 5,
+      "shenzhen": 5
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "一个人",
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "轻松逛吃",
+      "城市漫游",
+      "小众体验"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.4,
+    "avoid_crowd_score": 4.2,
+    "accessibility_score": 4.3,
+    "people_fit_score": 4.2,
+    "budget_score": 4.3,
+    "fatigue_score": 1.8,
+    "reason_short": "适合想轻松逛吃又不想去超级热门城市的人。",
+    "reason_duanwu": "老城逛吃密度高，2 到 3 天足够舒展，不需要太赶。",
+    "reason_avoid_crowd": "相比一线网红城市，节假日整体拥挤感通常更可控。",
+    "risk_tip": "核心老城区和热门店铺仍可能排队。",
+    "alternatives": [
+      "泉州",
+      "汕头"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "热门餐饮排队",
+      "核心城区拥挤"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "城市体验型目的地",
+      "本地生活感强于打卡感",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 2,
+      "guangzhou": 5,
+      "shenzhen": 5
+    },
+    "holiday_fit_note": "适合广深出发，想轻松逛吃、又不想冲超级热门目的地的年轻人。"
+  },
+  {
+    "id": "zhangzhou",
+    "name": "漳州",
+    "region": "福建",
+    "categories": [
+      "城市漫游",
+      "轻度度假"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 4,
+      "guangzhou": 4,
+      "shenzhen": 4
+    },
+    "trip_length_fit": [
+      3,
+      4
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "轻松逛吃",
+      "城市漫游",
+      "小众体验"
+    ],
+    "transport_fit": [
+      "高铁 / 飞机都可以",
+      "只要值得，远一点也行"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.1,
+    "avoid_crowd_score": 4.2,
+    "accessibility_score": 3.8,
+    "people_fit_score": 3.9,
+    "budget_score": 4.2,
+    "fatigue_score": 2.1,
+    "reason_short": "节奏相对松弛，适合端午短假做低压力城市休闲。",
+    "reason_duanwu": "3 天可安排老城、周边海边或古镇等组合，不必高强度赶路。",
+    "reason_avoid_crowd": "相比传统顶流目的地，游客密度相对温和。",
+    "risk_tip": "如果叠加热门周边点位，局部也可能变热。",
+    "alternatives": [
+      "泉州",
+      "宁德"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "多点位分散可游玩",
+      "城市体验型目的地",
+      "周边替代选择丰富"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 4,
+      "guangzhou": 4,
+      "shenzhen": 4
+    },
+    "holiday_fit_note": "适合想要城市休闲与松弛感、又不想把端午过成赶路旅行的用户。"
+  },
+  {
+    "id": "yangzhou",
+    "name": "扬州",
+    "region": "江苏",
+    "categories": [
+      "城市漫游",
+      "园林人文"
+    ],
+    "departure_fit": {
+      "beijing": 4,
+      "shanghai": 5,
+      "guangzhou": 2,
+      "shenzhen": 2
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "轻松逛吃",
+      "城市漫游"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.2,
+    "avoid_crowd_score": 3.5,
+    "accessibility_score": 4.1,
+    "people_fit_score": 4.1,
+    "budget_score": 3.7,
+    "fatigue_score": 1.9,
+    "reason_short": "适合华东用户做轻松的 2 到 3 天人文逛吃。",
+    "reason_duanwu": "城市节奏舒缓，园林、美食和老城体验适合短假。",
+    "reason_avoid_crowd": "相比超头部景区型目的地，体验整体更平稳。",
+    "risk_tip": "热门园林和早茶时段可能出现客流集中。",
+    "alternatives": [
+      "苏州",
+      "镇江"
+    ],
+    "recommendation_tier": "B",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "热门景点排队",
+      "热门餐饮排队"
+    ],
+    "avoid_crowd_basis": [
+      "城市体验型目的地",
+      "更适合短假不必特种兵",
+      "本地生活感强于打卡感"
+    ],
+    "city_group_priority": {
+      "beijing": 4,
+      "shanghai": 5,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合北京、上海出发，想要稳妥人文逛吃短假的情侣和朋友。"
+  },
+  {
+    "id": "suzhou",
+    "name": "苏州",
+    "region": "江苏",
+    "categories": [
+      "城市漫游",
+      "园林水乡"
+    ],
+    "departure_fit": {
+      "beijing": 4,
+      "shanghai": 5,
+      "guangzhou": 2,
+      "shenzhen": 2
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "城市漫游",
+      "轻松逛吃"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.0,
+    "avoid_crowd_score": 3.2,
+    "accessibility_score": 4.8,
+    "people_fit_score": 4.3,
+    "budget_score": 3.6,
+    "fatigue_score": 1.6,
+    "reason_short": "高可达、低折腾，适合华东用户快速切换到度假状态。",
+    "reason_duanwu": "高铁友好，城市配套成熟，2 到 3 天即可成行。",
+    "reason_avoid_crowd": "如果避开顶流古镇和头部园林，整体体验会更稳。",
+    "risk_tip": "传统热门区域节假日热度不低，需要做好区域选择。",
+    "alternatives": [
+      "扬州",
+      "湖州"
+    ],
+    "recommendation_tier": "C",
+    "holiday_risk_level": "high",
+    "holiday_risk_tags": [
+      "核心城区拥挤",
+      "热门景点排队",
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "城市体验型目的地",
+      "周边替代选择丰富"
+    ],
+    "city_group_priority": {
+      "beijing": 3,
+      "shanghai": 4,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "仅适合更看重交通便利和成熟配套、且不属于极度怕人多的用户。"
+  },
+  {
+    "id": "linhai",
+    "name": "台州临海",
+    "region": "浙江",
+    "categories": [
+      "小众体验",
+      "城市漫游"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 5,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "一个人"
+    ],
+    "preferences_fit": [
+      "城市漫游",
+      "小众体验",
+      "轻松逛吃"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.1,
+    "avoid_crowd_score": 4.4,
+    "accessibility_score": 4.0,
+    "people_fit_score": 3.9,
+    "budget_score": 4.1,
+    "fatigue_score": 1.7,
+    "reason_short": "更适合想找一点新鲜感、又不想扎进顶流景区的人。",
+    "reason_duanwu": "2 到 3 天可覆盖古城和周边体验，节奏轻巧。",
+    "reason_avoid_crowd": "在华东短假选择里，整体热度相对克制。",
+    "risk_tip": "如果节前集中被种草，局部街区可能升温。",
+    "alternatives": [
+      "丽水",
+      "衢州"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "多点位分散可游玩",
+      "不依赖单一头部景点",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 5,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合上海出发，想要一点小众感和新鲜感、又不想太折腾的年轻人。"
+  },
+  {
+    "id": "lishui",
+    "name": "丽水",
+    "region": "浙江",
+    "categories": [
+      "自然放空",
+      "小众体验"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 4,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "trip_length_fit": [
+      3,
+      4
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "自然放空",
+      "小众体验"
+    ],
+    "transport_fit": [
+      "高铁 / 飞机都可以",
+      "只要值得，远一点也行"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.0,
+    "avoid_crowd_score": 4.5,
+    "accessibility_score": 3.6,
+    "people_fit_score": 4.0,
+    "budget_score": 3.8,
+    "fatigue_score": 2.2,
+    "reason_short": "适合想用端午短假换个自然环境透口气的人。",
+    "reason_duanwu": "山水与小城结合，适合 3 天做慢节奏恢复型旅行。",
+    "reason_avoid_crowd": "相比头部山水目的地，人流压力通常更低。",
+    "risk_tip": "如果选择过多分散景点，可能会增加交通成本。",
+    "alternatives": [
+      "安吉",
+      "衢州"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "路程占比过高"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "自然型体验分散度高",
+      "多点位分散可游玩",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 4,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合上海出发、想找自然放空和恢复感的情侣或朋友。"
+  },
+  {
+    "id": "anji",
+    "name": "安吉",
+    "region": "浙江",
+    "categories": [
+      "自然放空",
+      "轻度度假"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 5,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "自然放空",
+      "小众体验"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.1,
+    "avoid_crowd_score": 3.9,
+    "accessibility_score": 4.4,
+    "people_fit_score": 4.1,
+    "budget_score": 3.7,
+    "fatigue_score": 1.8,
+    "reason_short": "适合上海周边短假放空，切换成本低。",
+    "reason_duanwu": "2 到 3 天即可完成自然放空和民宿度假体验。",
+    "reason_avoid_crowd": "只要避开头部网红点，整体可做到相对轻松。",
+    "risk_tip": "热门民宿区和景点周边节假日可能偏热。",
+    "alternatives": [
+      "丽水",
+      "莫干山"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "热门住宿紧张",
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "自然型体验分散度高",
+      "更适合短假不必特种兵",
+      "周边替代选择丰富"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 5,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合上海周边用户，想快速切到放空状态、又不想跑远的端午短假。"
+  },
+  {
+    "id": "shunde",
+    "name": "顺德",
+    "region": "广东",
+    "categories": [
+      "轻松逛吃",
+      "城市漫游"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 2,
+      "guangzhou": 5,
+      "shenzhen": 5
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "一个人",
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "轻松逛吃",
+      "城市漫游"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.4,
+    "avoid_crowd_score": 3.8,
+    "accessibility_score": 4.8,
+    "people_fit_score": 4.4,
+    "budget_score": 4.1,
+    "fatigue_score": 1.5,
+    "reason_short": "适合华南用户做低门槛、高满足感的逛吃短假。",
+    "reason_duanwu": "交通方便，吃和逛的密度高，2 到 3 天完全够用。",
+    "reason_avoid_crowd": "相比超头部旅游城市，整体游客结构更本地化、节奏更日常。",
+    "risk_tip": "热门餐厅和商圈节假日仍可能排长队。",
+    "alternatives": [
+      "佛山",
+      "江门"
+    ],
+    "recommendation_tier": "B",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "热门餐饮排队",
+      "核心城区拥挤"
+    ],
+    "avoid_crowd_basis": [
+      "城市体验型目的地",
+      "本地生活感强于打卡感",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 5,
+      "shenzhen": 5
+    },
+    "holiday_fit_note": "适合广深出发、重视逛吃体验、但对轻微排队仍可接受的用户。"
+  },
+  {
+    "id": "foshan",
+    "name": "佛山",
+    "region": "广东",
+    "categories": [
+      "城市漫游",
+      "轻松逛吃"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 2,
+      "guangzhou": 5,
+      "shenzhen": 5
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "轻松逛吃",
+      "城市漫游",
+      "小众体验"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤",
+      "只要好玩，人多也能接受"
+    ],
+    "duanwu_fit_score": 4.2,
+    "avoid_crowd_score": 3.7,
+    "accessibility_score": 4.7,
+    "people_fit_score": 4.1,
+    "budget_score": 4.2,
+    "fatigue_score": 1.4,
+    "reason_short": "华南短假里兼顾烟火气和低折腾的稳妥选择。",
+    "reason_duanwu": "通达性强，本地生活感重，适合放松型短途。",
+    "reason_avoid_crowd": "如果不追最热门打卡点，整体节奏更容易掌控。",
+    "risk_tip": "节日期间热门片区会有集中客流。",
+    "alternatives": [
+      "顺德",
+      "中山"
+    ],
+    "recommendation_tier": "B",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "核心城区拥挤",
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "本地生活感强于打卡感",
+      "城市体验型目的地",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 5,
+      "shenzhen": 5
+    },
+    "holiday_fit_note": "适合广深出发，想要低折腾、本地生活感更强短假的用户。"
+  },
+  {
+    "id": "jiangmen",
+    "name": "江门",
+    "region": "广东",
+    "categories": [
+      "小众体验",
+      "城市漫游"
+    ],
+    "departure_fit": {
+      "beijing": 1,
+      "shanghai": 2,
+      "guangzhou": 5,
+      "shenzhen": 4
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "小众体验",
+      "城市漫游",
+      "轻松逛吃"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.0,
+    "avoid_crowd_score": 4.3,
+    "accessibility_score": 4.2,
+    "people_fit_score": 3.9,
+    "budget_score": 4.1,
+    "fatigue_score": 1.7,
+    "reason_short": "适合华南用户寻找相对不那么拥挤的小众短假目的地。",
+    "reason_duanwu": "2 到 3 天内可完成老城、人文和轻度周边组合。",
+    "reason_avoid_crowd": "相较顶流城市，节假日客流压力通常更低。",
+    "risk_tip": "如果集中前往少数热门点位，也会出现局部拥挤。",
+    "alternatives": [
+      "佛山",
+      "肇庆"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "多点位分散可游玩",
+      "本地生活感强于打卡感",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 5,
+      "shenzhen": 4
+    },
+    "holiday_fit_note": "适合华南用户寻找相对不那么拥挤、节奏更松的端午短假。"
+  },
+  {
+    "id": "zhuhai",
+    "name": "珠海",
+    "region": "广东",
+    "categories": [
+      "海边度假",
+      "城市漫游"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 2,
+      "guangzhou": 5,
+      "shenzhen": 5
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "海边度假",
+      "城市漫游",
+      "轻松逛吃"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.2,
+    "avoid_crowd_score": 3.6,
+    "accessibility_score": 4.8,
+    "people_fit_score": 4.2,
+    "budget_score": 3.6,
+    "fatigue_score": 1.5,
+    "reason_short": "适合华南年轻人想要一点海边感、又不想跑太远。",
+    "reason_duanwu": "可达性优秀，城市配套完善，2 到 3 天成行效率高。",
+    "reason_avoid_crowd": "如果避开最热门滨海点位，整体体验仍有机会保持轻松。",
+    "risk_tip": "热门海滨区域和情侣路周边节假日热度不低。",
+    "alternatives": [
+      "惠州",
+      "江门"
+    ],
+    "recommendation_tier": "C",
+    "holiday_risk_level": "high",
+    "holiday_risk_tags": [
+      "海边核心区域升温",
+      "热门住宿紧张",
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "城市体验型目的地",
+      "周边替代选择丰富"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 4,
+      "shenzhen": 4
+    },
+    "holiday_fit_note": "仅适合偏好海边、且能接受节日期间局部热门区域升温的广深用户。"
+  },
+  {
+    "id": "huizhou",
+    "name": "惠州",
+    "region": "广东",
+    "categories": [
+      "海边度假",
+      "轻度度假"
+    ],
+    "departure_fit": {
+      "beijing": 1,
+      "shanghai": 2,
+      "guangzhou": 4,
+      "shenzhen": 5
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "亲子"
+    ],
+    "preferences_fit": [
+      "海边度假",
+      "自然放空"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.1,
+    "avoid_crowd_score": 3.5,
+    "accessibility_score": 4.6,
+    "people_fit_score": 4.0,
+    "budget_score": 3.7,
+    "fatigue_score": 1.6,
+    "reason_short": "适合深圳及周边用户快速进入海边短假模式。",
+    "reason_duanwu": "路程短、海边感明确，适合 2 到 3 天恢复型出游。",
+    "reason_avoid_crowd": "如果不去最热门沙滩和酒店带，整体压力相对可控。",
+    "risk_tip": "热门海边区域和酒店资源节假日容易紧张。",
+    "alternatives": [
+      "珠海",
+      "汕尾"
+    ],
+    "recommendation_tier": "B",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "海边核心区域升温",
+      "热门住宿紧张"
+    ],
+    "avoid_crowd_basis": [
+      "周边替代选择丰富",
+      "更适合短假不必特种兵",
+      "自然型体验分散度高"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 4,
+      "shenzhen": 5
+    },
+    "holiday_fit_note": "适合深圳及周边用户，想要海边度假感、又不想飞太远的短假需求。"
+  },
+  {
+    "id": "zhaoqing",
+    "name": "肇庆",
+    "region": "广东",
+    "categories": [
+      "自然放空",
+      "小众体验"
+    ],
+    "departure_fit": {
+      "beijing": 1,
+      "shanghai": 2,
+      "guangzhou": 5,
+      "shenzhen": 4
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "自然放空",
+      "小众体验"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.0,
+    "avoid_crowd_score": 4.1,
+    "accessibility_score": 4.3,
+    "people_fit_score": 3.8,
+    "budget_score": 4.3,
+    "fatigue_score": 1.8,
+    "reason_short": "适合想要自然感、又不想跑太远的华南用户。",
+    "reason_duanwu": "2 到 3 天可完成自然景观和城市休闲组合。",
+    "reason_avoid_crowd": "相比头部山水景区，节假日整体压力通常更可控。",
+    "risk_tip": "热门湖景点位和核心景区入口节假日可能集中。",
+    "alternatives": [
+      "江门",
+      "清远"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "自然型体验分散度高",
+      "更适合短假不必特种兵",
+      "多点位分散可游玩"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 5,
+      "shenzhen": 4
+    },
+    "holiday_fit_note": "适合华南用户想要自然放空、预算友好、又不想人挤人的端午短假。"
+  },
+  {
+    "id": "weihai",
+    "name": "威海",
+    "region": "山东",
+    "categories": [
+      "海边度假",
+      "城市漫游"
+    ],
+    "departure_fit": {
+      "beijing": 5,
+      "shanghai": 3,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "trip_length_fit": [
+      3,
+      4
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "亲子",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "海边度假",
+      "自然放空",
+      "城市漫游"
+    ],
+    "transport_fit": [
+      "高铁 / 飞机都可以",
+      "只要值得，远一点也行"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.1,
+    "avoid_crowd_score": 3.9,
+    "accessibility_score": 4.1,
+    "people_fit_score": 4.2,
+    "budget_score": 3.6,
+    "fatigue_score": 2.3,
+    "reason_short": "适合北京用户做有海边感、但不过度拥挤的短假选择。",
+    "reason_duanwu": "海边和城市休闲可结合，3 天安排相对舒展。",
+    "reason_avoid_crowd": "相比更顶流的海滨度假地，整体节奏通常更稳。",
+    "risk_tip": "热门海岸线和经典机位节假日也可能升温。",
+    "alternatives": [
+      "烟台",
+      "大连"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "海边核心区域升温"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "自然型体验分散度高",
+      "城市体验型目的地",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 5,
+      "shanghai": 2,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合北京出发，想要海边感和相对更稳体验的端午用户。"
+  },
+  {
+    "id": "yantai",
+    "name": "烟台",
+    "region": "山东",
+    "categories": [
+      "海边度假",
+      "轻松逛吃"
+    ],
+    "departure_fit": {
+      "beijing": 5,
+      "shanghai": 3,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "trip_length_fit": [
+      3,
+      4
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "海边度假",
+      "轻松逛吃",
+      "城市漫游"
+    ],
+    "transport_fit": [
+      "高铁 / 飞机都可以",
+      "只要值得，远一点也行"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.0,
+    "avoid_crowd_score": 3.8,
+    "accessibility_score": 4.0,
+    "people_fit_score": 4.0,
+    "budget_score": 3.7,
+    "fatigue_score": 2.2,
+    "reason_short": "适合华北用户在端午尝试偏轻松的海滨城市短假。",
+    "reason_duanwu": "城市配套成熟，海边和吃喝体验足够支撑 3 天。",
+    "reason_avoid_crowd": "相较顶流海边度假地，整体客流和节奏通常更平缓。",
+    "risk_tip": "热门滨海片区和夜市节假日热度可能上升。",
+    "alternatives": [
+      "威海",
+      "青岛"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "海边核心区域升温",
+      "节假日局部高热"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "城市体验型目的地",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 4,
+      "shanghai": 2,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合北京出发，偏好轻松海滨城市短假、又不想冲顶流海边目的地的用户。"
+  },
+  {
+    "id": "quzhou",
+    "name": "衢州",
+    "region": "浙江",
+    "categories": [
+      "自然放空",
+      "小众体验"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 4,
+      "guangzhou": 2,
+      "shenzhen": 2
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "一个人",
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "自然放空",
+      "小众体验",
+      "城市漫游"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.1,
+    "avoid_crowd_score": 4.3,
+    "accessibility_score": 4.0,
+    "people_fit_score": 4.0,
+    "budget_score": 4.3,
+    "fatigue_score": 1.8,
+    "reason_short": "适合上海周边用户找一个更低压力、带点山水感的短假目的地。",
+    "reason_duanwu": "2 到 3 天可安排古城、山水和地方小吃，不必高强度赶点。",
+    "reason_avoid_crowd": "相比浙江头部热门山水城市，节假日整体拥挤感通常更可控。",
+    "risk_tip": "若集中去头部景区，局部时段仍可能拥挤。",
+    "alternatives": [
+      "丽水",
+      "台州临海"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "局部景区热度上升"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "自然型体验分散度高",
+      "更适合短假不必特种兵",
+      "多点位分散可游玩"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 5,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合上海出发，想找山水休闲和一点小众感、又不想卷热门景区的人。"
+  },
+  {
+    "id": "ningde",
+    "name": "宁德",
+    "region": "福建",
+    "categories": [
+      "海边度假",
+      "自然放空"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 3,
+      "guangzhou": 3,
+      "shenzhen": 3
+    },
+    "trip_length_fit": [
+      3,
+      4
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "海边度假",
+      "自然放空",
+      "小众体验"
+    ],
+    "transport_fit": [
+      "高铁 / 飞机都可以",
+      "只要值得，远一点也行"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.0,
+    "avoid_crowd_score": 4.2,
+    "accessibility_score": 3.7,
+    "people_fit_score": 3.9,
+    "budget_score": 3.8,
+    "fatigue_score": 2.2,
+    "reason_short": "适合想看海但不想直接扎进顶流海滨城市的人。",
+    "reason_duanwu": "海边和自然景观兼具，3 天更适合做恢复型旅行。",
+    "reason_avoid_crowd": "相比更大众化的滨海城市，宁德的客流分布更分散。",
+    "risk_tip": "热门海湾和摄影点在节假日也可能变热。",
+    "alternatives": [
+      "漳州",
+      "泉州"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "热门海湾局部升温"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "海岸线体验分散",
+      "自然型体验分散度高",
+      "周边替代选择丰富"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 3,
+      "guangzhou": 3,
+      "shenzhen": 3
+    },
+    "holiday_fit_note": "适合想要海边和自然感、又不想冲顶流海滨城市的情侣或朋友。"
+  },
+  {
+    "id": "huzhou",
+    "name": "湖州",
+    "region": "浙江",
+    "categories": [
+      "自然放空",
+      "轻度度假"
+    ],
+    "departure_fit": {
+      "beijing": 2,
+      "shanghai": 5,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "亲子",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "自然放空",
+      "轻松逛吃"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.2,
+    "avoid_crowd_score": 3.7,
+    "accessibility_score": 4.7,
+    "people_fit_score": 4.1,
+    "budget_score": 3.7,
+    "fatigue_score": 1.4,
+    "reason_short": "适合上海周边做低决策成本、带度假感的周边短逃离。",
+    "reason_duanwu": "交通便利，2 到 3 天可完成轻度度假和自然放空组合。",
+    "reason_avoid_crowd": "只要不扎进最热门度假区，整体体验仍有机会保持松弛。",
+    "risk_tip": "知名度假板块和亲子酒店节假日容易升温。",
+    "alternatives": [
+      "安吉",
+      "衢州"
+    ],
+    "recommendation_tier": "B",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "热门度假区升温",
+      "亲子酒店紧张"
+    ],
+    "avoid_crowd_basis": [
+      "周边替代选择丰富",
+      "自然型体验分散度高",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 5,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合上海出发、想低成本进入度假状态，但愿意避开最热门板块的用户。"
+  },
+  {
+    "id": "qingyuan",
+    "name": "清远",
+    "region": "广东",
+    "categories": [
+      "自然放空",
+      "轻度度假"
+    ],
+    "departure_fit": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 5,
+      "shenzhen": 4
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "亲子",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "自然放空",
+      "轻松逛吃"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.1,
+    "avoid_crowd_score": 4.0,
+    "accessibility_score": 4.4,
+    "people_fit_score": 4.0,
+    "budget_score": 4.2,
+    "fatigue_score": 1.6,
+    "reason_short": "适合广深用户快速去山水里透气，预算压力也相对友好。",
+    "reason_duanwu": "交通半径合适，2 到 3 天即可获得明显的放松感。",
+    "reason_avoid_crowd": "除头部漂流和网红点外，整体游玩分布相对分散。",
+    "risk_tip": "漂流类和少数头部景区在节假日热度会明显上升。",
+    "alternatives": [
+      "肇庆",
+      "江门"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "漂流景区升温"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "自然型体验分散度高",
+      "多点位分散可游玩",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 5,
+      "shenzhen": 4
+    },
+    "holiday_fit_note": "适合广深出发，想找山水放空、预算友好、又不想去超级热门目的地的用户。"
+  },
+  {
+    "id": "zhongshan",
+    "name": "中山",
+    "region": "广东",
+    "categories": [
+      "轻松逛吃",
+      "城市漫游"
+    ],
+    "departure_fit": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 5,
+      "shenzhen": 4
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "一个人",
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "轻松逛吃",
+      "城市漫游"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 3.9,
+    "avoid_crowd_score": 4.0,
+    "accessibility_score": 4.5,
+    "people_fit_score": 4.0,
+    "budget_score": 4.2,
+    "fatigue_score": 1.5,
+    "reason_short": "适合珠三角用户找一个不折腾、可轻松吃喝漫游的短假城市。",
+    "reason_duanwu": "2 到 3 天节奏舒服，适合低压力出行和松弛型休息。",
+    "reason_avoid_crowd": "相比大湾区更热门城市，整体节假日拥挤感通常更温和。",
+    "risk_tip": "少数商业区和热门餐饮在饭点仍会排队。",
+    "alternatives": [
+      "顺德",
+      "佛山"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "热门商圈饭点排队"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "城市体验型目的地",
+      "本地生活感强于打卡感",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 5,
+      "shenzhen": 4
+    },
+    "holiday_fit_note": "适合广深出发，想轻松吃喝漫游、又不想去超级热门城市的年轻人。"
+  },
+  {
+    "id": "shanwei",
+    "name": "汕尾",
+    "region": "广东",
+    "categories": [
+      "海边度假",
+      "轻度度假"
+    ],
+    "departure_fit": {
+      "beijing": 1,
+      "shanghai": 2,
+      "guangzhou": 4,
+      "shenzhen": 5
+    },
+    "trip_length_fit": [
+      2,
+      3
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "亲子"
+    ],
+    "preferences_fit": [
+      "海边度假",
+      "自然放空"
+    ],
+    "transport_fit": [
+      "尽量高铁 3 小时内",
+      "高铁 / 飞机都可以"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.1,
+    "avoid_crowd_score": 3.9,
+    "accessibility_score": 4.5,
+    "people_fit_score": 4.0,
+    "budget_score": 3.8,
+    "fatigue_score": 1.7,
+    "reason_short": "适合深圳出发快速获得海边度假感，又不必冲顶流海岛。",
+    "reason_duanwu": "路上时间友好，2 到 3 天可完成海边放松和轻度出片。",
+    "reason_avoid_crowd": "相比更大众化的海边目的地，整体仍有一定避挤空间。",
+    "risk_tip": "热门海岸线和民宿片区在节假日仍可能升温。",
+    "alternatives": [
+      "惠州",
+      "珠海"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "海边住宿紧张",
+      "热门海岸线升温"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "海岸线体验分散",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 1,
+      "shanghai": 1,
+      "guangzhou": 4,
+      "shenzhen": 5
+    },
+    "holiday_fit_note": "适合深圳及周边用户想看海放空，但又不想直冲最热门海滨城市。"
+  },
+  {
+    "id": "dalian",
+    "name": "大连",
+    "region": "辽宁",
+    "categories": [
+      "海边度假",
+      "城市漫游"
+    ],
+    "departure_fit": {
+      "beijing": 5,
+      "shanghai": 2,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "trip_length_fit": [
+      3,
+      4
+    ],
+    "budget_fit": [
+      "适中",
+      "可以稍微住好一点"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "海边度假",
+      "城市漫游",
+      "轻松逛吃"
+    ],
+    "transport_fit": [
+      "高铁 / 飞机都可以",
+      "只要值得，远一点也行"
+    ],
+    "crowd_sensitivity_fit": [
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.0,
+    "avoid_crowd_score": 3.8,
+    "accessibility_score": 4.1,
+    "people_fit_score": 4.1,
+    "budget_score": 3.6,
+    "fatigue_score": 2.4,
+    "reason_short": "适合北京用户做带海边感和城市感结合的 3 天短假。",
+    "reason_duanwu": "海岸线、城市漫游和吃喝都能组合，适合端午做完整短途旅行。",
+    "reason_avoid_crowd": "相比更顶流海滨目的地，部分板块仍有相对可控的节奏。",
+    "risk_tip": "知名海岸线、公园和夜市节假日仍可能拥挤。",
+    "alternatives": [
+      "威海",
+      "烟台"
+    ],
+    "recommendation_tier": "B",
+    "holiday_risk_level": "medium",
+    "holiday_risk_tags": [
+      "热门海岸线升温",
+      "经典城区客流上升"
+    ],
+    "avoid_crowd_basis": [
+      "城市体验型目的地",
+      "海岸线体验分散",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 5,
+      "shanghai": 1,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合北京出发，想要海边和城市结合的完整短假体验，但接受一定热度的人。"
+  },
+  {
+    "id": "rizhao",
+    "name": "日照",
+    "region": "山东",
+    "categories": [
+      "海边度假",
+      "自然放空"
+    ],
+    "departure_fit": {
+      "beijing": 4,
+      "shanghai": 3,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "trip_length_fit": [
+      3,
+      4
+    ],
+    "budget_fit": [
+      "省钱型",
+      "适中"
+    ],
+    "companions_fit": [
+      "情侣",
+      "朋友",
+      "亲子",
+      "带父母"
+    ],
+    "preferences_fit": [
+      "海边度假",
+      "自然放空"
+    ],
+    "transport_fit": [
+      "高铁 / 飞机都可以",
+      "只要值得，远一点也行"
+    ],
+    "crowd_sensitivity_fit": [
+      "非常怕人多",
+      "尽量别太挤"
+    ],
+    "duanwu_fit_score": 4.0,
+    "avoid_crowd_score": 4.1,
+    "accessibility_score": 4.0,
+    "people_fit_score": 4.0,
+    "budget_score": 4.1,
+    "fatigue_score": 2.1,
+    "reason_short": "适合华北用户找一个更轻量、预算友好的海边短假选择。",
+    "reason_duanwu": "海边放松属性明确，3 天足够完成恢复型旅行。",
+    "reason_avoid_crowd": "相比更热门的山东海滨目的地，整体拥挤压力通常更可控。",
+    "risk_tip": "热门海水浴场和赶海点节假日仍会聚集人流。",
+    "alternatives": [
+      "威海",
+      "烟台"
+    ],
+    "recommendation_tier": "A",
+    "holiday_risk_level": "low",
+    "holiday_risk_tags": [
+      "热门海滩局部升温"
+    ],
+    "avoid_crowd_basis": [
+      "非头部热门城市",
+      "海岸线体验分散",
+      "预算友好",
+      "更适合短假不必特种兵"
+    ],
+    "city_group_priority": {
+      "beijing": 4,
+      "shanghai": 2,
+      "guangzhou": 1,
+      "shenzhen": 1
+    },
+    "holiday_fit_note": "适合北京出发，想要海边放松和预算友好、又不想去最热门海滨城市的用户。"
+  }
+]

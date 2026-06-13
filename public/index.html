@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>端午避挤旅行推荐助手</title>
+    <style>
+      :root {
+        --bg: #f5f7fb;
+        --surface: rgba(255,255,255,0.88);
+        --surface-strong: #ffffff;
+        --text: #0f172a;
+        --muted: #64748b;
+        --line: #e2e8f0;
+        --primary: #1d4ed8;
+        --primary-soft: #dbeafe;
+        --success: #0f766e;
+        --success-soft: #ccfbf1;
+        --warn: #b45309;
+        --warn-soft: #fef3c7;
+        --shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+        --radius-xl: 24px;
+        --radius-lg: 18px;
+        --radius-md: 14px;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 30%),
+          radial-gradient(circle at top right, rgba(16, 185, 129, 0.10), transparent 26%),
+          linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
+      }
+
+      .wrap {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 28px 18px 72px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, rgba(29, 78, 216, 0.94), rgba(14, 116, 144, 0.92));
+        border-radius: 28px;
+        padding: 32px;
+        color: white;
+        box-shadow: 0 22px 50px rgba(29, 78, 216, 0.20);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero::after {
+        content: '';
+        position: absolute;
+        inset: auto -40px -60px auto;
+        width: 220px;
+        height: 220px;
+        background: radial-gradient(circle, rgba(255,255,255,0.24), transparent 60%);
+        border-radius: 999px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.14);
+        font-size: 13px;
+        margin-bottom: 16px;
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-size: clamp(32px, 5vw, 52px);
+        line-height: 1.08;
+        letter-spacing: -0.03em;
+        max-width: 760px;
+      }
+
+      .hero p {
+        margin: 16px 0 0;
+        max-width: 700px;
+        font-size: 17px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.88);
+      }
+
+      .hero-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 24px;
+      }
+
+      .hero-badge {
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.16);
+        font-size: 13px;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 20px;
+        align-items: end;
+      }
+
+      .hero-side {
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,255,255,0.18);
+        border-radius: 22px;
+        padding: 20px;
+      }
+
+      .hero-side h3 {
+        margin: 0 0 12px;
+        font-size: 16px;
+      }
+
+      .hero-side ul {
+        margin: 0;
+        padding-left: 18px;
+        color: rgba(255,255,255,0.9);
+        line-height: 1.8;
+      }
+
+      .panel {
+        margin-top: 22px;
+        background: var(--surface);
+        border: 1px solid rgba(255,255,255,0.7);
+        backdrop-filter: blur(16px);
+        border-radius: var(--radius-xl);
+        padding: 26px;
+        box-shadow: var(--shadow);
+      }
+
+      .section-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .section-title h2, .section-title h3 {
+        margin: 0;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .intro-note {
+        padding: 14px 16px;
+        border-radius: 14px;
+        background: linear-gradient(90deg, #eff6ff, #f8fafc);
+        border: 1px solid #dbeafe;
+        color: #1e3a8a;
+        font-size: 14px;
+        margin-bottom: 18px;
+      }
+
+      .form-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+
+      .field {
+        background: var(--surface-strong);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-lg);
+        padding: 16px;
+      }
+
+      .field label {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .field .hint {
+        font-size: 12px;
+        color: var(--muted);
+        margin-bottom: 10px;
+      }
+
+      .field select {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 12px 14px;
+        font-size: 14px;
+        background: white;
+      }
+
+      .actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      button {
+        appearance: none;
+        border: none;
+        border-radius: 14px;
+        padding: 13px 18px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+      }
+
+      button:hover {
+        transform: translateY(-1px);
+      }
+
+      .primary-btn {
+        background: linear-gradient(135deg, #1d4ed8, #2563eb);
+        color: white;
+        box-shadow: 0 12px 24px rgba(37, 99, 235, 0.22);
+      }
+
+      .secondary-btn {
+        background: white;
+        color: var(--text);
+        border: 1px solid var(--line);
+      }
+
+      .result-hero {
+        padding: 18px 20px;
+        border-radius: 18px;
+        background: linear-gradient(135deg, #eff6ff, #ecfeff);
+        border: 1px solid #bfdbfe;
+        margin-bottom: 18px;
+      }
+
+      .result-hero .label {
+        display: inline-flex;
+        padding: 7px 12px;
+        border-radius: 999px;
+        background: white;
+        color: #1d4ed8;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+
+      .result-hero h3 {
+        margin: 0 0 10px;
+        font-size: 24px;
+      }
+
+      .result-hero p {
+        margin: 0;
+        color: #334155;
+        line-height: 1.7;
+      }
+
+      .recommendations {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 16px;
+      }
+
+      .recommendation {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 14px 30px rgba(15, 23, 42, 0.05);
+      }
+
+      .recommendation-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      .recommendation h3 {
+        margin: 0;
+        font-size: 22px;
+      }
+
+      .mini-badge {
+        padding: 7px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 700;
+        background: var(--success-soft);
+        color: var(--success);
+        white-space: nowrap;
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 12px 0 16px;
+      }
+
+      .tag {
+        padding: 7px 10px;
+        border-radius: 999px;
+        background: #eef2ff;
+        color: #4338ca;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .rec-block {
+        margin-top: 12px;
+      }
+
+      .rec-block strong {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 13px;
+        color: #0f172a;
+      }
+
+      .rec-block p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #334155;
+      }
+
+      .warning-box {
+        margin-top: 14px;
+        padding: 12px 14px;
+        border-radius: 14px;
+        background: var(--warn-soft);
+        color: #92400e;
+        font-size: 13px;
+        line-height: 1.6;
+      }
+
+      .alt-row {
+        margin-top: 14px;
+      }
+
+      .alt-chips {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 8px;
+      }
+
+      .chip {
+        padding: 7px 10px;
+        border-radius: 999px;
+        background: #f8fafc;
+        border: 1px solid var(--line);
+        font-size: 12px;
+        color: #334155;
+      }
+
+      .tips-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 14px;
+      }
+
+      .tip-card {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 16px;
+      }
+
+      pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+        background: #0f172a;
+        color: #e2e8f0;
+        padding: 14px;
+        border-radius: 14px;
+        overflow: auto;
+      }
+
+      .hidden { display: none; }
+
+      @media (max-width: 860px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .wrap { padding: 18px 14px 48px; }
+        .hero { padding: 24px 20px; border-radius: 22px; }
+        .panel { padding: 18px; border-radius: 20px; }
+        .hero h1 { font-size: 32px; }
+        .result-hero h3 { font-size: 20px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">端午 3 天 · 北上广深年轻人 · 相对避挤推荐</div>
+            <h1>端午不想人挤人？<br />3 分钟帮你筛出更适合的旅行地</h1>
+            <p>
+              不是推荐最火的地方，而是帮你结合出发城市、偏好和节假日风险，筛出更适合端午短假、整体体验更稳的目的地。
+            </p>
+            <div class="hero-badges">
+              <span class="hero-badge">相对避开热门拥挤</span>
+              <span class="hero-badge">更适合 3 天短假</span>
+              <span class="hero-badge">少走弯路，快速做决定</span>
+            </div>
+          </div>
+          <aside class="hero-side">
+            <h3>这次工具更适合帮你解决：</h3>
+            <ul>
+              <li>端午想出门，但不想去人从众的地方</li>
+              <li>只有 3 天假，不想把旅行过成赶路</li>
+              <li>不想刷一堆攻略，只想先知道去哪更稳</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-title">
+          <div>
+            <h2>测一测，你这次端午更适合去哪</h2>
+            <p class="muted">先告诉我几个条件，我帮你先筛掉不那么合适的地方。</p>
+          </div>
+        </div>
+
+        <div class="intro-note">
+          我们不会直接推荐“最火”的地方，而是优先推荐 <strong>更适合端午短假、相对更轻松</strong> 的目的地。
+        </div>
+
+        <div class="form-grid">
+          <div class="field">
+            <label for="departureCity">你从哪里出发？</label>
+            <div class="hint">首版优先支持北上广深</div>
+            <select id="departureCity">
+              <option value="beijing">北京</option>
+              <option value="shanghai">上海</option>
+              <option value="guangzhou">广州</option>
+              <option value="shenzhen">深圳</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="companion">这次和谁一起去？</label>
+            <div class="hint">不同同行人，适合的节奏也不同</div>
+            <select id="companion">
+              <option value="couple">情侣</option>
+              <option value="friends">朋友</option>
+              <option value="solo">一个人</option>
+              <option value="family_kids">亲子</option>
+              <option value="parents">带父母</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="budgetLevel">预算大概在哪个档位？</label>
+            <div class="hint">我们会尽量过滤掉不太匹配的选择</div>
+            <select id="budgetLevel">
+              <option value="mid">适中</option>
+              <option value="budget">省钱型</option>
+              <option value="comfort">可以稍微住好一点</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="travelPreference">你更想要哪种体验？</label>
+            <div class="hint">决定是逛吃、放空、海边还是小众感</div>
+            <select id="travelPreference">
+              <option value="citywalk">城市漫游</option>
+              <option value="food">轻松逛吃</option>
+              <option value="nature">自然放空</option>
+              <option value="seaside">海边度假</option>
+              <option value="niche">小众体验</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="transportTolerance">你能接受多远？</label>
+            <div class="hint">短假里，路上时间很重要</div>
+            <select id="transportTolerance">
+              <option value="train_or_flight">高铁 / 飞机都可以</option>
+              <option value="train_3h">尽量高铁 3 小时内</option>
+              <option value="worth_longer">只要值得，远一点也行</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="crowdSensitivity">你有多怕人多？</label>
+            <div class="hint">这是我们这次推荐最重要的判断之一</div>
+            <select id="crowdSensitivity">
+              <option value="avoid_if_possible">尽量别太挤</option>
+              <option value="very_sensitive">非常怕人多</option>
+              <option value="not_sensitive">只要好玩，人多也能接受</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button id="submitBtn" class="primary-btn">查看我的端午推荐</button>
+        </div>
+      </section>
+
+      <section id="resultCard" class="panel hidden">
+        <div class="section-title">
+          <div>
+            <h2>你的端午推荐结果</h2>
+            <p id="summary" class="muted"></p>
+          </div>
+        </div>
+
+        <div id="resultHero" class="result-hero"></div>
+
+        <div id="recommendations" class="recommendations"></div>
+
+        <div style="margin-top: 22px;">
+          <div class="section-title">
+            <div>
+              <h3>如果你这次特别怕人多，可优先避开</h3>
+              <p class="muted">这些不是不能去，而是节假日整体体验更容易波动。</p>
+            </div>
+          </div>
+          <div id="avoidSuggestions" class="tips-grid"></div>
+        </div>
+
+        <div class="actions">
+          <button id="refreshBtn" class="secondary-btn">换一批推荐</button>
+          <button id="debugBtn" class="secondary-btn">查看原始返回</button>
+        </div>
+
+        <pre id="debug" class="hidden"></pre>
+      </section>
+    </div>
+
+    <script>
+      let refreshSeed = 0;
+      const ids = ['departureCity', 'companion', 'budgetLevel', 'travelPreference', 'transportTolerance', 'crowdSensitivity'];
+      const resultCard = document.getElementById('resultCard');
+      const recommendationsEl = document.getElementById('recommendations');
+      const avoidSuggestionsEl = document.getElementById('avoidSuggestions');
+      const summaryEl = document.getElementById('summary');
+      const debugEl = document.getElementById('debug');
+      const resultHeroEl = document.getElementById('resultHero');
+
+      const conclusionMap = {
+        citywalk: '比起冲顶流热门地，你这次更适合节奏更稳的城市漫游型短假。',
+        food: '你这次更适合高密度逛吃、但不必挤进最热门城市中心的短假。',
+        nature: '你这次更适合低折腾、能真正放松下来的自然恢复型短假。',
+        seaside: '你更适合有海边感、但不一定非要冲最热海滨目的地的轻度度假。',
+        niche: '你这次更适合带一点新鲜感和小众感、整体更稳的目的地。'
+      };
+
+      function buildPayload() {
+        const payload = {};
+        ids.forEach((id) => {
+          payload[id] = document.getElementById(id).value;
+        });
+        payload.refreshSeed = refreshSeed;
+        return payload;
+      }
+
+      function renderHero(payload) {
+        const text = conclusionMap[payload.travelPreference] || '这次更适合相对轻松、不那么折腾的端午短假。';
+        resultHeroEl.innerHTML = `
+          <div class="label">系统判断</div>
+          <h3>${text}</h3>
+          <p>我们结合了你的出发城市、预算、偏好和拥挤敏感度，优先筛出了更适合端午 3 天、整体体验更稳的选择。</p>
+        `;
+      }
+
+      function renderResult(data, payload) {
+        summaryEl.textContent = data.summary;
+        renderHero(payload);
+
+        recommendationsEl.innerHTML = data.recommendations.map((item, index) => `
+          <article class="recommendation">
+            <div class="recommendation-header">
+              <div>
+                <div class="muted">推荐 ${index + 1}</div>
+                <h3>${item.name} <span class="muted">· ${item.region}</span></h3>
+              </div>
+              <span class="mini-badge">更适合这次端午</span>
+            </div>
+
+            <div class="tags">
+              ${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+            </div>
+
+            <div class="rec-block">
+              <strong>一句话推荐</strong>
+              <p>${item.reasonShort}</p>
+            </div>
+
+            <div class="rec-block">
+              <strong>为什么适合端午</strong>
+              <p>${item.reasonDuanwu}</p>
+            </div>
+
+            <div class="rec-block">
+              <strong>为什么相对更轻松</strong>
+              <p>${item.reasonAvoidCrowd}</p>
+            </div>
+
+            <div class="rec-block">
+              <strong>更适合什么人</strong>
+              <p>${item.holidayFitNote}</p>
+            </div>
+
+            <div class="warning-box">
+              <strong>风险提醒：</strong>${item.riskTip}
+            </div>
+
+            <div class="alt-row">
+              <strong>如果你想看类似替代地</strong>
+              <div class="alt-chips">
+                ${item.alternatives.map(alt => `<span class="chip">${alt}</span>`).join('')}
+              </div>
+            </div>
+          </article>
+        `).join('');
+
+        avoidSuggestionsEl.innerHTML = data.avoidSuggestions.map((item) => `
+          <div class="tip-card">
+            <strong>避坑提醒</strong>
+            <p class="muted" style="margin: 8px 0 0; line-height: 1.7;">${item}</p>
+          </div>
+        `).join('');
+
+        debugEl.textContent = JSON.stringify(data, null, 2);
+        resultCard.classList.remove('hidden');
+        resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      async function fetchRecommendations() {
+        const payload = buildPayload();
+        const response = await fetch('/api/recommendations', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await response.json();
+        renderResult(data, payload);
+      }
+
+      document.getElementById('submitBtn').addEventListener('click', async () => {
+        refreshSeed = 0;
+        await fetchRecommendations();
+      });
+
+      document.getElementById('refreshBtn').addEventListener('click', async () => {
+        refreshSeed += 1;
+        await fetchRecommendations();
+      });
+
+      document.getElementById('debugBtn').addEventListener('click', () => {
+        debugEl.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
